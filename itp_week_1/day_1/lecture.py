@@ -96,7 +96,7 @@ my_variable = "a string"
 
 # Now, instead of printing string literals, we can print variables which store the string!
 
-name = "Danny"
+name = "MyName"
 
 # Change the name above to your name and uncomment the line below!
 
