@@ -14,7 +14,7 @@
 # Windows: Ctrl + /
 # Mac: Cmd + /
 # Now let's prevent the code below from running by commenting it out!
-eat_bad_pizza()
+#eat_bad_pizza()
 
 ##################################
 # dont worry about the error     #
@@ -35,7 +35,7 @@ eat_bad_pizza()
 
 # Replace CHANGE_ME to your favorite color and run the code in your terminal.
 
-print("CHANGE_ME")
+print("Daisy")
 
 # Currently what we're printing is just a string.
 
