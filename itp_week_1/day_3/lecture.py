@@ -82,6 +82,7 @@ print(fruits[0]) # "apple"
 
 # if i want mangos
 mango = fruits[6]
+#not the same as mango = "mango"
 
 # kiwi
 kiwi = fruits[4]
