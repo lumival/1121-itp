@@ -29,6 +29,7 @@ my_car = {
   "model": "Mustang",
   "year": 2021,
   "interest": 22
+  # key : value
 }
 
 # Dictionary items are ordered, changeable, and does not allow duplicates.
@@ -69,7 +70,7 @@ number_of_my_car_keys = len(my_car)
 # Dictionary Items - Data Types
 # The values in dictionary items can be of any data type:
 
-# String, int, boolean, and list data types:
+# -----------------------String, int, boolean, and list data types: ---------------------
 
 your_car = {
   "brand": "Toyota",

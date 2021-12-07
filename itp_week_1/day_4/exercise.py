@@ -12,12 +12,16 @@ inventory = {
 
 # SCENARIO: A person came in and bought one of everything!
 
-for item in inventory:
+for item, value in inventory.items():
     # decrement item by using an assignment operator (Day 2 Lecture line #130)
-
+    inventory.update({item: value - 1})
     # NOTE: recall that item represents the key of the key:value pair
-
+print(inventory)
 # SCENARIO: REMOVE ANY 0 ITEMS
 
 for item in inventory:
     # use an if statement to check if the value is 0 and then remove it
+    if inventory.values() == 0:
+        inventory.pop(item)
+        
+print(inventory)
